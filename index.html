@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xino AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #050505;
+            --text-color: #ffffff;
+            --glass-bg: rgba(255, 255, 255, 0.05);
+            --glass-border: rgba(255, 255, 255, 0.1);
+            --sidebar-bg: #0a0a0a;
+            --ai-bubble: rgba(255, 255, 255, 0.08);
+            --sub-text: #71717a;
+            --border-width: 1px;
+        }
+
+        [data-theme='light'] {
+            --bg-color: #f8fafc;
+            --text-color: #0f172a;
+            --glass-bg: rgba(255, 255, 255, 0.7);
+            --glass-border: rgba(15, 23, 42, 0.1);
+            --sidebar-bg: #ffffff;
+            --ai-bubble: rgba(15, 23, 42, 0.05);
+            --sub-text: #64748b;
+        }
+
+        [data-contrast='high'] {
+            --bg-color: #000000 !important;
+            --text-color: #ffffff !important;
+            --glass-bg: #000000 !important;
+            --glass-border: #ffffff !important;
+            --sidebar-bg: #000000 !important;
+            --ai-bubble: #111111 !important;
+            --sub-text: #ffffff !important;
+            --border-width: 2px !important;
+        }
+
+        [data-theme='light'][data-contrast='high'] {
+            --bg-color: #ffffff !important;
+            --text-color: #000000 !important;
+            --glass-bg: #ffffff !important;
+            --glass-border: #000000 !important;
+            --sidebar-bg: #ffffff !important;
+            --ai-bubble: #eeeeee !important;
+            --sub-text: #000000 !important;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            overflow: hidden;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+        .glass-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(12px);
+            border: var(--border-width) solid var(--glass-border);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #00FF94 0%, #00B2FF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        [data-contrast='high'] .gradient-text {
+            background: none;
+            -webkit-text-fill-color: #00FF94;
+            font-weight: 800;
+        }
+        .neon-glow {
+            box-shadow: 0 0 20px rgba(0, 255, 148, 0.3);
+        }
+        [data-contrast='high'] .neon-glow {
+            box-shadow: 0 0 0 2px #00FF94;
+        }
+        .message-bubble-user {
+            background: linear-gradient(135deg, #00FF94 0%, #00D1FF 100%);
+            color: #000;
+            border: var(--border-width) solid transparent;
+        }
+        [data-contrast='high'] .message-bubble-user {
+            background: #00FF94;
+            border-color: #000;
+            font-weight: 700;
+        }
+        .message-bubble-ai {
+            background: var(--ai-bubble);
+            border: var(--border-width) solid var(--glass-border);
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+        .floating { animation: float 3s ease-in-out infinite; }
+        
+        .bg-custom-main { background-color: var(--bg-color); }
+        .bg-custom-sidebar { background-color: var(--sidebar-bg); }
+        .text-custom-main { color: var(--text-color); }
+        .text-custom-sub { color: var(--sub-text); }
+        .border-custom { border-color: var(--glass-border); border-width: var(--border-width); }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "@google/genai": "https://esm.sh/@google/genai@^1.37.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
